@@ -3,7 +3,10 @@ from pydantic import BaseModel, Field
 import instructor
 from openai import OpenAI
 import os
+from dotenv import load_dotenv 
 
+
+load_dotenv()  
 
 
 class Recensione(BaseModel):
